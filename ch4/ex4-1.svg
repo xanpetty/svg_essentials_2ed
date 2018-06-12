@@ -1,0 +1,11 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="200px" height="200px" viewBox="0 0 200 200"
+>
+
+<line x1="40" y1="20" x2="80" y2="20" stroke="black" />
+<line x1="0.7cm" y1="1cm" x2="0.7cm" y2="2.0cm" stroke="black" />
+<line x1="30" y1="30" x2="85" y2="85" stroke="black" />
+
+</svg>

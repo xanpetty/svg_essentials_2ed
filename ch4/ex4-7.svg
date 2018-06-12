@@ -1,0 +1,16 @@
+<svg
+  width="200" height="200" viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<rect x="10" y="10" width="20" height="40" rx="2" ry="2" style="fill: none; stroke: black;"/>
+<rect x="40" y="10" width="20" height="40" rx="5"  style="fill: none; stroke: black;" />
+<rect x="70" y="10" width="20" height="40" ry="10" style="fill: none; stroke: black;" />
+<rect x="10" y="60" width="20" height="40" rx="10" ry="5" style="fill: none; stroke: black;" />
+<rect x="40" y="60" width="20" height="40" rx="5" ry="10" style="fill: none; stroke: black;" />
+<rect x="70" y="60" width="20" height="20" rx="10" ry="10" style="fill: none; stroke: black;" />
+
+
+
+</svg>
