@@ -1,0 +1,18 @@
+<svg
+  width="240px"
+  height="200px"
+  viewBox="0 0 240 200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+  <defs>
+    <linearGradient id="two_hues">
+      <stop offset="40%" style="stop-color: #fc0;" />
+      <stop offset="60%" style="stop-color: #09c;" />
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="20" width="200" height="100" style="fill: url(#two_hues); stroke: black;"/>
+
+</svg>
