@@ -1,0 +1,34 @@
+<svg
+  width="200px"
+  height="200px"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+><rect width="100%" height="100%" fill="white"/>
+
+  <g id="text">
+    <text x="130" y="50"
+      style="font-family: Arial; font-size: 14pt; stroke:green;">Spring</text>
+    <text x="130" dy="70"
+      style="font-family: Arial; font-size: 14pt; stroke:green;">Flower</text>
+  </g>
+
+  <g id="flower">
+    <circle id="center" cx="60" cy="60" r="10" fill="gray"/>
+    <path id="stem" style="stroke: green; fill: none; stroke-width: 3;"
+      d="M 68 70 C 50 100 160 160 100 195" />
+    <path id="leaf" style="stroke: green; fill: green;"
+      d="M 91 120 Q 80 70 140 85 Q 90 80 95 122"/>
+
+    <path id="petal" style="stroke:black; fill: yellow;"
+      d="M 50 60 Q 32 45 20 60 Q 32 75 50 60" />
+    <use xlink:href="#petal" transform="rotate(40,60,60)"/>
+    <use xlink:href="#petal" transform="rotate(80,60,60)"/>
+    <use xlink:href="#petal" transform="rotate(120,60,60)"/>
+    <use xlink:href="#petal" transform="rotate(160,60,60)"/>
+    <use xlink:href="#petal" transform="rotate(200,60,60)"/>
+    <use xlink:href="#petal" transform="rotate(240,60,60)"/>
+    <use xlink:href="#petal" transform="rotate(280,60,60)"/>
+    <use xlink:href="#petal" transform="rotate(320,60,60)"/>
+  </g>
+</svg>
