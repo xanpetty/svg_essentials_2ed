@@ -1,0 +1,22 @@
+<svg
+  width="250px"
+  height="250px"
+  viewBox="0 0 250 250"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+><rect width="100%" height="100%" fill="white"/>
+  <title>set element</title>
+
+  <circle cx="60" cy="60" r="30"
+    style="stroke: gray; fill: #ff9;">
+    <animate id="c1" attributeName="r" attributeType="XML"
+      begin="0s" dur="4s" from="30" to="0" fill="freeze"/>
+  </circle>
+
+  <text text-anchor="middle" x="60" y="60" style="visibility:hidden;">
+    <set attributeName="visibility" attributeType="CSS"
+      to="visible" begin="4.5s" dur="1s" fill="freeze"/>
+    All gone!
+  </text>
+
+</svg>

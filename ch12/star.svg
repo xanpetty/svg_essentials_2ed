@@ -1,0 +1,20 @@
+<svg
+  width="200px"
+  height="200px"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+><rect width="100%" height="100%" fill="white"/>
+  <title>star animation</title>
+
+  <defs>
+    <g id="starDef">
+      <path d="M 38.042 -12.361 9.405 -12.944 -0.000 -40.000
+        -9.405 -12.944 -38.042 -12.361 -15.217 4.944
+        -23.522 32.361 0.000 16.000 23.511 32.361 15.217 4.944 Z"/>
+    </g>
+  </defs>
+  <use id="star" class="starStyle" xlink:href="#starDef"
+    transform="translate(100,100)"
+    style="fill: #080; stroke: #080"/>
+</svg>
